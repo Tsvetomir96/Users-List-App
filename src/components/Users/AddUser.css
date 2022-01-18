@@ -1,0 +1,48 @@
+.new-user__controls {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-user__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-user__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.new-user__actions {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.new-user__actions button {
+  padding: 0.3rem 1rem;
+  background-color: rgb(112, 111, 110);
+  color: #fff;
+  border-radius: 0.6rem;
+}
+
+.new-user__actions button:hover {
+  background-color: rgb(124, 123, 121);
+  transition: 0.3s;
+}
+
+.user-body {
+  background-color: #a2e5a0;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 20rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
